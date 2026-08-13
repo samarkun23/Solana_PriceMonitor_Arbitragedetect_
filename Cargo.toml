@@ -1,0 +1,14 @@
+[package]
+name = "solana-priceMonitor-arbitragedetect"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = {version = "0.12",features= ["json"]}
+tokio = {version = "1", features = ["full"]}
+serde_json = "1"
+serde = { version = "1" , features = ["derive"]}
+dotenvy = "0.15.7"
+csv = "1.4.0"
+chrono = "0.4.45"
+
